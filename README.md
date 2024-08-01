@@ -12,19 +12,19 @@ Welcome to the To-Do List App! This simple application allows you to manage your
 ## Screenshots
 
 ### Main Interface
-![Checking Off a Task](TODOTSX/Screenshots/Main_Interface.png)
+![Main Interface](src/Screenshots/Main_Interface.png)
 
 ### Adding a Task
-![Adding a Task](TODOTSX/Screenshots/Add_Tasks.png)
+![Adding a Task](src/Screenshots/Add_Tasks.png)
 
 ### Editing a Task - Step 1
-![Editing a Task - Step 1](TODOTSX/Screenshots/Edit_Tasks.png)
+![Editing a Task - Step 1](src/Screenshots/Edit_Tasks.png)
 
 ### Editing a Task - Step 2
-![Editing a Task - Step 2](TODOTSX/Screenshots/Edit_Tasks(2).png)
+![Editing a Task - Step 2](src/Screenshots/Edit_Tasks(2).png)
 
 ### Deleting a Task
-![Deleting a Task](TODOTSX/Screenshots/Delete_Tasks.png)
+![Deleting a Task](src/Screenshots/Delete_Tasks.png)
 
 
 ## Getting Started
