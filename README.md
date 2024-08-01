@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+# To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the To-Do List App! This simple application allows you to manage your tasks efficiently. You can add, edit, check off, and delete tasks. The app is built using TypeScript and uses local storage to save and retrieve tasks.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Tasks:** Easily add new tasks to your to-do list.
+- **Edit Tasks:** Modify existing tasks without changing other elements.
+- **Delete Tasks:** Remove tasks from your list.
+- **Persistent Storage:** Tasks are saved in local storage, so they persist even after refreshing the page.
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Main Interface
+![Checking Off a Task](TODOTSX/Screenshots/Main_Interface.png)
 
-- Configure the top-level `parserOptions` property like this:
+### Adding a Task
+![Adding a Task](TODOTSX/Screenshots/Add_Tasks.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Editing a Task - Step 1
+![Editing a Task - Step 1](TODOTSX/Screenshots/Edit_Tasks.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Editing a Task - Step 2
+![Editing a Task - Step 2](TODOTSX/Screenshots/Edit_Tasks(2).png)
+
+### Deleting a Task
+![Deleting a Task](TODOTSX/Screenshots/Delete_Tasks.png)
+
+
+## Getting Started
+
+### Prerequisites
+
+To run this project, you need to have Node.js and npm installed. If you don't have them installed, you can download and install them from [here](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/hawetengg/To-Do-App-React.git
