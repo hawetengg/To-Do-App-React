@@ -1,6 +1,6 @@
 # To-Do List App
 
-Welcome to the To-Do List App! This simple application allows you to manage your tasks efficiently. You can add, edit, check off, and delete tasks. The app is built using TypeScript and uses local storage to save and retrieve tasks.
+Welcome to the To-Do List App! This simple application allows you to manage your tasks efficiently. You can add, edit and delete tasks. The app is built using TypeScript and uses local storage to save and retrieve tasks.
 
 ## Features
 
